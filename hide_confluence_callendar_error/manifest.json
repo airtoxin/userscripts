@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name":			"hide confluence callendar error",
+	"version":		"1.0",
+	"description":	"Hide Callendar Error on Confluence",
+	"content_scripts": [
+		{
+			"matches":[ "https://*.atlassian.net/wiki/*" ],
+			"js":[ "hide_error.js" ]
+		}
+	]
+}
