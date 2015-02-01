@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "devtwitter_api_document_width",
+	"version": "1.0",
+	"description": "fix width",
+	"content_scripts": [
+		{
+			"matches":[ "https://dev.twitter.com/*" ],
+			"js":[ "width.js" ]
+		}
+	]
+}
